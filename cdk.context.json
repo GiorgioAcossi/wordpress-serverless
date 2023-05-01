@@ -1,0 +1,18 @@
+{
+  "availability-zones:account=163155686789:region=eu-west-1": [
+    "eu-west-1a",
+    "eu-west-1b",
+    "eu-west-1c"
+  ],
+  "dev": {
+    "env": "dev",
+    "project": "<PROJECT_NAME>",
+    "image": "<WORDPRESS_IMAGE>"
+  },
+  "prod": {
+    "env": "prod",
+    "project": "<PROJECT_NAME>",
+    "image": "<WORDPRESS_IMAGE>",
+    "domain": "<DOMAIN_NAME>"
+  }
+}
