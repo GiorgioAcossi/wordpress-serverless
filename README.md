@@ -1,7 +1,7 @@
 # WordPress Serverless 
 
 ## Description
-This project provides a serverless solution for deploying a WordPress website using AWS services. The solution uses ECS with Fargate for deploying the WordPress website and RDS with Aurora Serverless for deploying the MySQL database required for the correct functioning of SQL.
+This project provides a serverless solution for deploying a WordPress website using AWS services. The solution uses ECS with Fargate for deploying the WordPress website and RDS with Aurora Serverless for deploying the MySQL database required for the correct functioning of WordPress.
 
 # Infrastructure
 
@@ -14,7 +14,7 @@ To install all Python dependencies, run the following command:
 pip install -r requirements.txt
 ```
 
-##Configure Environment Variables
+## Configure Environment Variables
 To deploy correctly, create a file named **.env** in the root directory of the project and configure the following properties as shown below:
 ```
 AWS_ACCOUNT=<ACCOUNT_ID_FOR_TEST_ENVIRONMENT>
