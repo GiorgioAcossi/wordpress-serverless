@@ -4,7 +4,7 @@
 This project provides a serverless solution for deploying a WordPress website using AWS services. The solution uses ECS with Fargate for deploying the WordPress website and RDS with Aurora Serverless for deploying the MySQL database required for the correct functioning of WordPress.
 
 # Infrastructure
-
+![](./infrastructure-diagram.svg)  
 
 # Deployment
 
